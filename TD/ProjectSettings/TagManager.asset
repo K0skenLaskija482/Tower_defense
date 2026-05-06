@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground 1
+    uniqueID: 353306343
+    locked: 0
+  - name: Ground 2
+    uniqueID: 390032251
+    locked: 0
+  - name: Ground 3
+    uniqueID: 3096026071
+    locked: 0
+  - name: GroundDecoration 1
+    uniqueID: 2561496621
+    locked: 0
+  - name: GroundDecoration 2
+    uniqueID: 416170247
+    locked: 0
+  - name: Instance
+    uniqueID: 2023897383
+    locked: 0
+  - name: Front 1
+    uniqueID: 210170309
+    locked: 0
+  - name: Front 2
+    uniqueID: 2184313423
+    locked: 0
+  - name: Collision
+    uniqueID: 217913975
+    locked: 0
+  - name: Front 3
+    uniqueID: 949454625
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7
