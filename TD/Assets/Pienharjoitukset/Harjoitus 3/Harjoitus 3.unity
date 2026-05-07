@@ -388,9 +388,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2148585120364614810, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148585120364614810, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 353306343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678379948929082151, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678379948929082151, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1198941225
+      objectReference: {fileID: 0}
     - target: {fileID: 6094497754608416191, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
       propertyPath: m_Name
       value: Grid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374913666787820085, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374913666787820085, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 210170309
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535112878972869347, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535112878972869347, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 217913975
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889951502755387445, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889951502755387445, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2023897383
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998328746884555688, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998328746884555688, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 390032251
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356444143582194077, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356444143582194077, guid: 46a0987e9b203164f899c9517176ca31, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1733470675
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -459,6 +515,7 @@ GameObject:
   - component: {fileID: 846379526972700848}
   - component: {fileID: 2025404030363753876}
   - component: {fileID: 5317398358218387491}
+  - component: {fileID: 5317398358218387492}
   m_Layer: 0
   m_Name: Warrior 1
   m_TagString: Enemy
@@ -519,8 +576,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2032721109
-  m_SortingLayer: 6
+  m_SortingLayerID: 949454625
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7384290322352760091, guid: 614f74b18dc11b74fa4cee4314dece89, type: 3}
@@ -740,7 +797,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 2032721109
+  m_SortingLayerID: 949454625
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &2931679680523881953
@@ -818,8 +875,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2032721109
-  m_SortingLayer: 6
+  m_SortingLayerID: 416170247
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7316229441688303391, guid: 66f0eb45549666e42bbe96f169e8ea7b, type: 3}
@@ -1125,6 +1182,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &5317398358218387492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707241838558371722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e70e81415a8f545b93939317e899fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pienharjoitukset.EnemyMovement
+  tower: {fileID: 8695723834919883240}
+  enemy: {fileID: 4930719568207973551}
+  speed: 3
 --- !u!1 &5362707818525490232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1252,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 2032721109
+  m_SortingLayerID: 949454625
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &6166691852250634788
@@ -1314,8 +1386,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2032721109
-  m_SortingLayer: 6
+  m_SortingLayerID: -2110653873
+  m_SortingLayer: 8
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7257567913506708742, guid: af5761fa115f7fd449abe4fa36527a53, type: 3}
@@ -1440,7 +1512,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 2032721109
+  m_SortingLayerID: -2110653873
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &7213312318087827371
@@ -1604,6 +1676,7 @@ GameObject:
   - component: {fileID: 8601445429052814112}
   - component: {fileID: 6988221602148029956}
   - component: {fileID: 3831359437333691315}
+  - component: {fileID: 8601445429052814113}
   m_Layer: 0
   m_Name: Warrior 2
   m_TagString: Enemy
@@ -1656,8 +1729,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2032721109
-  m_SortingLayer: 6
+  m_SortingLayerID: 949454625
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7384290322352760091, guid: 614f74b18dc11b74fa4cee4314dece89, type: 3}
@@ -1670,6 +1743,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &8601445429052814113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444293341618082842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e70e81415a8f545b93939317e899fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pienharjoitukset.EnemyMovement
+  tower: {fileID: 8695723834919883240}
+  enemy: {fileID: 4075168235113006911}
+  speed: 3
 --- !u!222 &8635515095457600943
 CanvasRenderer:
   m_ObjectHideFlags: 0
